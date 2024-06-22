@@ -218,7 +218,7 @@ Delete the N-th Node from the End (ASSIGNMENT)
         current2.prev = current;
     }
 
-    return mergeList.head;
+    return mergeList;
    }
 
 
@@ -283,9 +283,7 @@ doubleLinkedList2.printForward();
 
 doubleLinkedList1.printForward();
 
-const mergedListHead = doubleLinkedList1.mergeTwoSortedLinkedLists(doubleLinkedList1, doubleLinkedList2);
-const mergedList = new DoublyLinkedList();
-mergedList.head = mergedListHead;
+const mergedList = doubleLinkedList1.mergeTwoSortedLinkedLists(doubleLinkedList1, doubleLinkedList2);
 mergedList.printForward();
 
 
